@@ -12,3 +12,18 @@
 🎥 Recomendação: a função recommend permite recomendar filmes semelhantes a um filme específico, dado o seu movieId. Por padrão, a função retorna as 10 recomendações mais próximas.
 
 📚 Dependências: o código utiliza as bibliotecas Pandas e Numpy. Certifique-se de tê-las instaladas antes de executar o código.
+
+
+💻 Para utilizar o código:
+
+Certifique-se de ter o Python instalado em seu ambiente.
+Instale as dependências (bibliotecas Pandas e Numpy) caso ainda não as tenha.
+Coloque o arquivo data.csv com os dados do IMDB na mesma pasta do código.
+Execute o arquivo main.py com o Python.
+🎥 Para recomendar filmes:
+
+Chame a função recommend passando como argumento o movieId do filme desejado.
+A função retornará uma lista com as recomendações de filmes mais semelhantes ao filme escolhido.
+📈 O cálculo da similaridade entre os filmes é feito utilizando o cosseno.
+
+👍 Divirta-se recomendando filmes!
